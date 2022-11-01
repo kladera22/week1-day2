@@ -13,7 +13,7 @@ const {
     updatePassword,
     logout
 } = require('../controllers/userController');
-const reqLogger = require ('../middlewares/reqlogger')
+const reqLogger = require ('../middlewares/reqLogger')
 const {
     userValidator,
     adminValidator} = require ('../middlewares/utils/validators');

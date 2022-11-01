@@ -15,7 +15,7 @@ const {
     deleteItemRating,
     postItemImage
 } = require('../controllers/itemController');
-const reqLogger = require ('../middlewares/reqlogger')
+const reqLogger = require ('../middlewares/reqLogger')
 const {itemValidator} = require ('../middlewares/utils/validators');
 const protectedRoute = require('../middlewares/auth')
 

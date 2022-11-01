@@ -8,7 +8,7 @@ const {
     updateCategory,
     deleteCategory
 } = require('../controllers/categoryController');
-const reqLogger = require ('../middlewares/reqlogger')
+const reqLogger = require ('../middlewares/reqLogger')
 const {categoryValidator} = require ('../middlewares/utils/validators')
 const protectedRoute = require('../middlewares/auth')
 
